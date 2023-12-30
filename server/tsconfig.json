@@ -1,0 +1,12 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "compilerOptions": {
+    "types": ["vuetify"],
+    "paths": {
+      "@/*": ["../src/*"],
+      "~/*": ["../"],
+
+    }
+  },
+
+}
